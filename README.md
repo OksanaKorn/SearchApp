@@ -1,4 +1,3 @@
-Search App
 Search App is a simple app for search information in different search engines.
 To run this app, please follow next steps:
 1.	Download or clone repository. Go to repository root folder;
