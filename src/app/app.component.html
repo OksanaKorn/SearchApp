@@ -1,0 +1,10 @@
+<div class="wrapper">
+    <input [(ngModel)]="searchQuery" name="userInput" id="searchQuery" placeholder="Введите текст для поиска" required>
+        <select [(ngModel)]="searchEngine" name="searchEngine" id="searchEngine">
+            <option value="">Укажите поисковую систему</option>     
+            <option value="google">google.com</option>
+            <option value="bing">bing.com</option>
+            <option value="ask">ask.com</option>
+        </select>
+    <button id='submitButton' (click)="onSearch(searchQuery, searchEngine)">Search</button>
+</div>
